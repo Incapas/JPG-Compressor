@@ -1,0 +1,14 @@
+# --- Dépendances de l'application ---
+pillow==11.3.0
+ttkbootstrap==1.18.0
+
+# Glisser-déposer de fichiers sur la fenêtre.
+# Dépendance facultative : si elle est absente, l'application démarre
+# normalement et seul le glisser-déposer est désactivé.
+tkinterdnd2==0.6.2
+
+# --- Outils de développement et de distribution ---
+# Les tests reposent sur unittest (bibliothèque standard) ; seule la mesure
+# de couverture nécessite une dépendance externe.
+coverage==7.15.4
+auto-py-to-exe==2.50.1
